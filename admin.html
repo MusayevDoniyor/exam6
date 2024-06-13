@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container-content">
+        <form>
+          <div class="form-control">
+            <label for="title">Product title</label>
+            <input required type="text" name="title" id="title" />
+          </div>
+
+          <div class="form-control">
+            <label for="price">Product price</label>
+            <input required type="number" name="price" id="price" />
+          </div>
+
+          <div class="form-control">
+            <label for="description">Product description</label>
+            <textarea
+              required
+              rows="4"
+              cols="50"
+              name="description"
+              id="description"
+            ></textarea>
+          </div>
+
+          <button type="submit">Add Card</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container"></div>
+
+    <script type="module" src="./js/admin.js"></script>
+  </body>
+</html>

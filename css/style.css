@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(174, 185, 15);
+    text-align: center;
+}
+
+
+
+
+#app {
+    margin-top: 80px;
+    padding: 0 100px 0 0;
+}
+
+.container-content {
+    max-width: 1305px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 144, 103);
+    border: 1px solid;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-control {
+    text-align: start;
+}
+
+.form-control label {
+    color: white;
+}
+
+
+
+
+
+input {
+    padding: 15px 12px;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 530px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: white;
+}
+
+#price {
+    width: 120px;
+}
+
+input:focus {
+    border: 2px solid dodgerblue;
+
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    padding: 16px 48px 16px 48px;
+    border-radius: 4px;
+    background-color: rgb(68, 108, 219);
+    color: white;
+    transition: 0.5s all;
+
+}
+
+.btn-log:hover {
+    background-color: black;
+    transition: 0.5s all;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.content {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    background-color: rgb(169, 234, 4);
+}
+
+.content h2 {
+    overflow: hidden;
+}
+
+.content p {
+    overflow: hidden;
+
+}
+
+.content button {
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
